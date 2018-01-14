@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+<html>
+	<head>
+		<title>{% block title %}{% endblock %}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+	</head>
+	<body>
+
+		<!-- Main -->
+				{% block content %}
+				
+				
+				{% endblock %}
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
+				<div class="inner">
+					<div class="content">
+						<h3>About Us</h3>
+						<p>We are a leading Information and
+Communications Technology (ICT) company in Uganda, among our many
+services, GSM infrastructure, telecom equipment installation and transportation,
+outside planting (Optical Fiber Construction) and related managed services is
+what we do. We have satisfactorily done this for the past 10 years in Uganda,
+Rwanda and generally in the entire East African region..</p>
+					</div>
+					<div class="copyright">
+						<h3>Follow Us</h3>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						</ul>
+						
+						&copy; <a href="#">Essence Solutions</a>. <!--Images: <a href="https://unsplash.com/">Unsplash</a>. -->
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'js/skel.min.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>

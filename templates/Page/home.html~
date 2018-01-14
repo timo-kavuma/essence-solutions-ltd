@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load staticfiles  %}
+{% block title %}Essence Solutions{% endblock %}
+{% block content %}
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="button hidden"><span>Let's Go</span></a>
+				</div>
+			</header>
+
+			<div id="main">
+				<div class="inner">
+					<div class="columns">
+
+						<!-- Column 1 (horizontal, vertical, horizontal, vertical) -->
+							<div class="image fit">
+								<a href="{% url 'detail_hor' 1 %}"><img src="{% static 'images/pic01.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_ver' 2 %}"><img src="{% static 'images/pic02.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_hor' 9 %}"><img src="{% static 'images/pic09.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_ver' 4 %}"><img src="{% static 'images/pic04.jpg' %}" alt="" /></a>
+							</div>
+
+						<!-- Column 2 (vertical, horizontal, vertical, horizontal) -->
+							<div class="image fit">
+								<a href="{% url 'detail_ver' 6 %}"><img src="{% static 'images/pic06.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_hor' 5 %}"><img src="{% static 'images/pic05.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_ver' 8 %}"><img src="{% static 'images/pic08.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_hor' 7 %}"><img src="{% static 'images/pic07.jpg' %}" alt="" /></a>
+							</div>
+
+						<!-- Column 3 (horizontal, vertical, horizontal, vertical) -->
+							<div class="image fit">
+								<a href="{% url 'detail_hor' 3 %}"><img src="{% static 'images/pic03.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_ver' 12 %}"><img src="{% static 'images/pic12.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_hor' 11 %}"><img src="{% static 'images/pic11.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_ver' 10 %}"><img src="{% static 'images/pic10.jpg' %}" alt="" /></a>
+							</div>
+
+						<!-- Column 4 (vertical, horizontal, vertical, horizontal) -->
+							<div class="image fit">
+								<a href="{% url 'detail_ver' 13 %}"><img src="{% static 'images/pic13.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_hor' 14 %}"><img src="{% static 'images/pic14.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_ver' 15 %}"><img src="{% static 'images/pic15.jpg' %}" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="{% url 'detail_hor' 16 %}"><img src="{% static 'images/pic16.jpg' %}" alt="" /></a>
+							</div>
+
+					</div>
+				</div>
+			</div>
+{% endblock %}
