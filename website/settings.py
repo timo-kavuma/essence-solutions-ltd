@@ -28,7 +28,7 @@ SECRET_KEY = '@6%11avz32i5g(i((5nwl-&fdi3wxl!vsu#my@@i7(ik83v(^z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'https://essence-solutions.herokuapp.com/']
 
 
 # Application definition
