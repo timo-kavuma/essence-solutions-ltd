@@ -26,9 +26,9 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = '@6%11avz32i5g(i((5nwl-&fdi3wxl!vsu#my@@i7(ik83v(^z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://essence-solutions.herokuapp.com/', ]
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
