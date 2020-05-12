@@ -1,5 +1,5 @@
 # essence-solutions-ltd
-Project developed for Essence Soluution (U) Ltd 
+Project developed for Essence Solutions (U) Ltd 
 
 # should you require this code
 # add your project's SECRET-KEY
